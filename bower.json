@@ -1,0 +1,16 @@
+{
+  "name": "MagicVNEngine",
+  "homepage": "https://github.com/magicolic/MagicVNEngine",
+  "authors": [
+    "EmeraldCoder <la_plume_en_or@hotmail.com>"
+  ],
+  "description": "JavaScript Visual Novel game engine",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "requirejs": "~2.1.22"
+  }
+}
