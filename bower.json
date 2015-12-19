@@ -12,7 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "requirejs": "~2.1.22",
-    "EaselJS": "~0.8.2"
+    "EaselJS": "~0.8.2",
+    "PreloadJS": "~0.6.2" 
   },
   "ignore": [
       "bower_components",
