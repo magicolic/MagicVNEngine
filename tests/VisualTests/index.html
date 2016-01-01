@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MagicVNEngine | Visual Tests</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body.loading { opacity: 0; }
+            #Toolbox { 
+                background: beige; padding: 10px; position: fixed; top: 0; bottom: 0; left: 0; width: 300px; 
+                font: 14px arial; border-right: 1px solid silver;
+            }
+            .toolbox-title { font-weight: bold; color: #000; line-height: 2em; }
+            #Toolbox a { color: blue; cursor: pointer; }
+            #Toolbox a:hover { text-decoration: underline; }
+        </style>
+    </head>
+    <body>
+        <div id="Toolbox">
+            <div class="toolbox-title">Tests</div>
+            <ul>
+                <li>
+                    <strong>Audio</strong>
+                    <ul>
+                        <li><a href="BackgroundMusicPlayer">Background Music Player</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Visual</strong>
+                    <ul>
+                        <li><a href="BackgroundRenderer">Background Renderer</a></li>
+                        <li><a href="DialogRenderer">Dialog Renderer</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

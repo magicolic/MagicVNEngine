@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MagicVNEngine | Visual Tests | BackgroundMusicPlayer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body.loading { opacity: 0; }
+            #Toolbox { 
+                background: beige; padding: 10px; position: fixed; top: 0; bottom: 0; left: 0; width: 300px; 
+                font: 14px arial; border-right: 1px solid silver;
+            }
+            .toolbox-title { font-weight: bold; color: #000; line-height: 2em; }
+            #Toolbox a { color: blue; cursor: pointer; }
+            #Toolbox a:hover { text-decoration: underline; }
+        </style>
+    </head>
+    <body>
+        <div id="Toolbox">
+            <div class="toolbox-title">Background musics</div>
+            <div>
+                <label><input type="radio" value="music1" name="music" />Background 1</label>
+            </div>
+            <div>
+                <label><input type="radio" value="music2" name="music" />Background 2</label>
+            </div>
+            <div>
+                <label><input type="radio" value="music3" name="music" />Background 3</label>
+            </div>
+            
+            <div class="toolbox-title">&nbsp;</div>
+            <button id="PlayButton">Play</button>
+            <button id="StopButton">Stop</button>
+        </div>
+        
+        <script src="/bower_components/PreloadJS/lib/preloadjs-0.6.2.min.js"></script>
+        <script src="/bower_components/SoundJS/lib/soundjs-0.6.2.min.js"></script>
+        <script src="/bower_components/requirejs/require.js?v=1" data-main="test.js"></script>
+    </body>
+</html>
